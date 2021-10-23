@@ -35,6 +35,15 @@ p.bodytext {
 	line-height: 1.5
 }
 
+p.imageText {
+	font-size:1.2em;
+	color: #000000;
+	padding:1px;
+	text-align:left;
+	line-height: 1.5;
+	float:left
+}
+
 div.headingBlock {
 	padding:5px;
 	text-align:center;
@@ -45,6 +54,11 @@ div.headingBlock {
 
 div.textBlock {
 	padding:5px
+}
+
+div.sideImage {
+	padding:5px;
+	overflow:auto
 }
 
 div.wrapper {
@@ -59,6 +73,12 @@ div.wrapper {
 
 a {
 	target="_blank"
+}
+
+img.thumbnailSide {
+	width:200px;
+	float:left;
+	margin-right: 5px
 }
 
 hr {
@@ -108,24 +128,34 @@ hr.subtleBreak {
 			</p>
 		</div>
 		<hr class="sectionBreak">
-		<p class="bodytext">
-		<b>HAPPY SUNDAY</b> -- This week saw fissures in the Liberal-National Coalition over a <b>proposed target of net zero emissions by 2050</b>. The Liberals (particularly the PM) want Australia to adopt the target, the Nats have a few influential holdouts who see the target as a threat to the bush. Watch this space -- most people think that we will adopt a net-zero by 2050 target, but we're yet to find out the size and scope of the <b>carve-out for the bush</b> the Nats will negotiate.
-		</p>
-		<br>
-		<p class="bodytext">
-		Elsewhere: <b>The Government voted against an investigation</b> that would have determined whether former cabinet minister <b>Christian Porter</b> had to disclose the source of the <b>secret trust</b> that paid for his legal fight with the ABC for its allegations against him of historical rape. The trust is reportedly valued between <b>$600K and $1M</b>.
-		</p>
-		<br>
-		<p class="bodytext">
-		Australia is set to deliver <b>booster shots</b> of the Covid-19 vaccines from as early as <b>next week</b>. <b>LOOKING AT:</b> Will ATAGI endorse <b>mixing vaccines</b>? A few countries have started doing this, with the US FDA last week giving the green light to mix Pfizer, J&J, and Moderna.
-		</p>
+		<div class="textBlock" id="intro">
+			<p class="bodytext">
+			<b>HAPPY SUNDAY</b> -- This week saw fissures in the Liberal-National Coalition over a <b>proposed target of net zero emissions by 2050</b>. The Liberals (particularly the PM) want Australia to adopt the target, the Nats have a few influential holdouts who see the target as a threat to the bush. Watch this space -- most people think that we will adopt a net-zero by 2050 target, but we're yet to find out the size and scope of the <b>carve-out for the bush</b> the Nats will negotiate.
+			</p>
+			<br>
+			<p class="bodytext">
+			Elsewhere: <b>The Government voted against an investigation</b> that would have determined whether former cabinet minister <b>Christian Porter</b> had to disclose the source of the <b>secret trust</b> that paid for his legal fight with the ABC for its allegations against him of historical rape. The trust is reportedly valued between <b>$600K and $1M</b>.
+			</p>
+			<br>
+			<p class="bodytext">
+			Australia is set to deliver <b>booster shots</b> of the Covid-19 vaccines from as early as <b>next week</b>. <b>LOOKING AT:</b> Will ATAGI endorse <b>mixing vaccines</b>? A few countries have started doing this, with the US FDA last week giving the green light to mix Pfizer, J&J, and Moderna.
+			</p>		
+		</div>
 		<hr class="sectionBreak">
-		<p class="headlineMajor">
-		Other interesting stories...
-		</p>
-		<p class="bodytext">
-		<b></b>
-		</p>
+		<div class="textBlock" id="other">
+			<p class="headlineMajor">
+			Other interesting stories...
+			</p>
+			<div class="sideImage">
+				<img class="thumbnailSide" src="https://static.ffx.io/images/$zoom_0.136%2C$multiply_1.3545%2C$ratio_1.5%2C$width_756%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/40765d18372f9b99ce119fb88f1c4a6d34e58e44">
+				<p class="imageText">
+					<b>MORE BEER</b>: Melbourne, Australia. Lockdown as partially ended in Melbourne, allowing its residents to enjoy the half-open life Sydneysiders and Canberrans have been enjoying for an entire week. Compulsory beer. 
+				</p>
+			</div>
+			<p class="bodytext">
+			<b></b>
+			</p>
+		</div>
 		<hr class="sectionBreak">
 		<p class="headlineMajor">
 		Chart of the week
