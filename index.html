@@ -55,15 +55,31 @@ a {
 }
 
 hr {
-	margin-top:25px;
-	margin-bottom:25px;
+	margin-top:10px;
+	margin-bottom:10px;
 	margin-left:auto;
 	margin-right:auto;
 	padding:0px;
 	border:0px;
+	
+}
+
+hr.sectionBreak {
+	margin-top:25px;
+	margin-bottom:25px;
 	height:3px;
-	width:300px;
+	width:70%;
+	min-width:300px;
+	max-width:600px;
 	background-color:#0043bf
+}
+
+hr.subtleBreak {
+	height:1px;
+	width:30%;
+	min-width:150px;
+	max-width:500px;
+	background-color:#cfd6e3
 }
 
 </style>
@@ -75,15 +91,16 @@ hr {
 			<p style="font-size:50px;color:#00245c">
 				<b>Dot Points</b>
 			</p>
-			<p style="font-size:20px;color:#666666">
+			<hr class="subtleBreak">
+			<p style="font-size:15px;color:#666666;font-weight:200">
 			Sunday, 24 October 2021 -- <i>Noah Yim</i>
 			</p>
-			<br>
-			<p style="font-size:18px;color:#666666">
+			<br style="font-size:2px">
+			<p style="font-size:15px;color:#666666;font-weight:200">
 			<i>"It's definitely not a Nashville party, because all I see around are stilettos -- I guess I never got the memo."</i>
 			</p>
 		</div>
-		<hr>
+		<hr class="sectionBreak">
 		<p class="bodytext">
 		<b>HAPPY SUNDAY</b> -- This week saw fissures in the Liberal-National Coalition over a proposed target of net zero emissions by 2050. The Liberals (particularly the PM) want Australia to adopt the target, the Nats have a few influential holdouts who see the target as a threat to the bush. Watch this space -- most people think that we will adopt a net-zero by 2050 target, but we're yet to find out the size and scope of the <b>carve-out for the bush</b> the Nats will negotiate.
 		</p>
